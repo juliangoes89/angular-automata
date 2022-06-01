@@ -1,0 +1,5 @@
+<div class ="row-container" *ngIf="n">
+  <div *ngFor="let number of counter; let i=index " class="row">
+        <app-cell [row]="i" [column]="0" (changedEvent)="setup($event)"></app-cell>
+  </div>
+</div>

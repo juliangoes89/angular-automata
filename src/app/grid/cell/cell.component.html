@@ -1,0 +1,16 @@
+<div [ngClass]="{'isAlive':isAlive, 'isAnt':isAnt}" class="cell" (click)="cellClicked()">
+  <div *ngIf="isAnt" class="direction">
+    <h3 *ngIf="direction=='u'">
+      &uarr;
+    </h3>
+    <h3 *ngIf="direction=='l'">
+      &larr;
+    </h3>
+    <h3 *ngIf="direction=='r'">
+      &rarr;
+    </h3>
+    <h3 *ngIf="direction=='d'">
+      &darr;
+    </h3>
+  </div>
+</div>

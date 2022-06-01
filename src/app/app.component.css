@@ -1,0 +1,85 @@
+
+.contents{
+}
+.title{
+    color:white;
+    text-align: center;
+}
+.setup{
+  text-align: center;
+  margin-bottom: 10px;
+}
+:host label{
+  color:white;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.hidden{
+  visibility: hidden;
+  margin: 0;
+  padding: 0;
+  min-width: 0;
+  min-height: 0;
+  width: 0;
+  height: 0;
+  max-width: 0;
+  max-height: 0;
+}
+.petridish{
+  text-align: center;
+}
+.gridsize{
+  width: 60px;
+}
+.actions{
+  text-align: center;
+}
+.btn {
+  text-decoration: none;
+  background-color: gray;
+  color: black;
+  display: inline-block;
+  margin: 10px 5px;
+  padding: 7px;
+  text-align: center;
+  font-weight: 600;
+}
+.steps{
+  text-align: center;
+  margin:0;
+  padding:0;
+}
+.steps h2,h3{
+  margin:0;
+  padding:0;
+}
+.wolframRules{
+  margin: 8px auto;
+  width: 731px;
+  text-align: center;
+}
+.wolframRules h3{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.rules-cells{
+  text-align: center;
+}
+.rules-cells .rules{
+  display: inline-block;
+  margin: 0px 4%;
+}
+.rule-name{
+  text-align: center;
+}
+.rule-name h4{
+  margin-top:8px;
+  margin-bottom: 8px;
+}
+.teory{
+  text-align: center;
+  margin-top: 25px;
+}
+.teory p{
+  color:gray;
+}
